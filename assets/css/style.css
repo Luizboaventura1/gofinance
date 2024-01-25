@@ -1,0 +1,29 @@
+.cta {
+  transition: 0.3s;
+}
+.cta:hover {
+  box-shadow: 0 0 15px rgba(101, 59, 193, 0.6901960784);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #653bc1;
+  border-radius: 10px;
+}
+
+.modulos {
+  background-image: linear-gradient(to top right, #242424, #313131);
+}
+
+.modulo {
+  background-color: #323232;
+}
+.modulo .numero-modulo {
+  box-shadow: 0 0 15px rgba(101, 59, 193, 0.662745098);
+}
+
+/*# sourceMappingURL=style.css.map */
