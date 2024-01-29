@@ -26,3 +26,23 @@
     box-shadow: 0 0 15px #653bc1a9;
   }
 }
+
+
+.cellphone {
+  position: relative;
+  animation: cellphone 2s ease-in-out infinite;
+}
+
+@keyframes cellphone {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -20px;
+  }
+
+  100% {
+    top: 0;
+  }
+}

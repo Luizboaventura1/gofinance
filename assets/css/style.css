@@ -26,4 +26,21 @@
   box-shadow: 0 0 15px rgba(101, 59, 193, 0.662745098);
 }
 
+.cellphone {
+  position: relative;
+  animation: cellphone 2s ease-in-out infinite;
+}
+
+@keyframes cellphone {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
